@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <nav className={isOpen ? 'nav-container open' : 'nav-container'}>
-      <div className='logo'>Logo</div>
+      <div className='logo'>Ministry Of Finance</div>
       <div
         className={`menu-icon ${isOpen ? 'open' : ''}`}
         onClick={toggleNav}
